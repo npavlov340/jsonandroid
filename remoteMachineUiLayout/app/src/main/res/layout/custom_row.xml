@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/url"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="25dp"
+        app:srcCompat="@mipmap/misfortune"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TextView"
+        android:gravity = "center_vertical|left|start"
+        tools:text="@string/index"
+        />
+
+</LinearLayout>
